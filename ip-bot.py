@@ -5,8 +5,8 @@ import logging
 
 logging.basicConfig(level=logging.INFO)
 
-TOKEN = 'TOKEN'
-CHANNEL_ID = CHANNEL_ID
+TOKEN = 'YOUR_DISCORD_BOT_TOKEN'
+CHANNEL_ID = YOUR_DISCORD_CHANNEL_ID
 
 client = discord.Client(intents=discord.Intents.default())
 
